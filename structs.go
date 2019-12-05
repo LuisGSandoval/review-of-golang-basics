@@ -9,6 +9,11 @@ type Car struct {
 	Model int
 }
 
+// PrintCar es una funcion que se agrego al struct Car
+func (c Car) PrintCar() {
+	fmt.Println(c)
+}
+
 func main() {
 	// Hay 2 formas de inicializar (agregar data en)  un struct la primer opcion es:
 	// c := Car{"Mazda", 2019} // Sin agregar el key de los valores
@@ -17,6 +22,7 @@ func main() {
 		Model: 2019,
 	} // Agregando el key de los valores (recommended)
 
-	fmt.Println(c)
+	// fmt.Println(c)
+	c.PrintCar() // Estamos ejecutando la funcion que fue agregada a nuestro struct
 
 }

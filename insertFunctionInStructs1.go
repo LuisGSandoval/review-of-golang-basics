@@ -14,7 +14,7 @@ func (c Car) PrintCar() {
 	fmt.Println(c)
 }
 
-func main() {
+func main7() {
 	// Hay 2 formas de inicializar (agregar data en)  un struct la primer opcion es:
 	// c := Car{"Mazda", 2019} // Sin agregar el key de los valores
 	c := Car{

@@ -20,7 +20,7 @@ func superHeavy() {
 	}
 }
 
-func main() {
+func main2() {
 
 	go heavy()
 	superHeavy()

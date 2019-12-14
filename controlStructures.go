@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // in golang we have if else, for loops, switch, continue break, etc...
-func main() {
+func main13() {
 	// if else
 
 	f := false

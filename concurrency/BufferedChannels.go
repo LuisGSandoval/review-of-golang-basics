@@ -10,7 +10,7 @@ type Car struct {
 	Model string
 }
 
-func main() {
+func main5() {
 	c := make(chan *Car, 3)
 
 	go func() {

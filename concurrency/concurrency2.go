@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-func main() {
+func main3() {
 
 	// Waitin groups were created to ensure go routins are fully executed.
 	wg := &sync.WaitGroup{}
